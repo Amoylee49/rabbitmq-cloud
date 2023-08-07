@@ -10,6 +10,7 @@ import org.springframework.cloud.stream.annotation.EnableBinding;
 public class BaristaServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(BaristaServiceApplication.class,args);
+        System.out.println("测试branch");
     }
 
 }
